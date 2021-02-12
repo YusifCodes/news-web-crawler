@@ -10,9 +10,7 @@ from datetime import datetime
 import mysql.connector
 from flask import jsonify
 
-
 url = 'https://www.day.az/'
-
 
 def get_links():
     try:
@@ -48,17 +46,6 @@ def get_data():
     currUrl = ""
     # create an id var
     index = 0
-    # # create an article class
-
-    # class Article:
-    #     def __init__(self, article_title, article_picture, article_link, article_content):
-    #         self.article_title = article_title
-    #         self.article_picture = article_picture
-    #         self.article_link = article_link
-    #         self.article_content = article_content
-
-    #     def return_data_node(self):
-    #         return {"title": self.article_title, "picture": self.article_picture, "link": self.article_link, "content": self.article_content}
 
     # create a random index function
     def ranIndex():
